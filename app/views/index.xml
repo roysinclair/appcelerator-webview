@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="web" fullscreen="true">
+		<!-- Android enableZoomControls disable zoom buttons  -->
+		<WebView id="webview" enableZoomControls="false" enableJavascriptInterface="true"/>
+		<!-- iOS enable 2 buttons to go back or reload the page -->
+		<View bottom="0" width="100%" height="30" backgroundColor="#444444" layout="horizontal" platform="ios">
+			<Button width="49%" onClick="goBack" textAlign="left">Back</Button>
+			<Button width="49%" onClick="reload" textAlign="right">Reload</Button>
+		</View>
+	</Window>
+</Alloy>

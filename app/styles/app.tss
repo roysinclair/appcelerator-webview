@@ -1,0 +1,9 @@
+"Window[platform=android]":{   
+    layout:'vertical',
+    theme: 'Theme.NoActionBar', 	
+    color: "#444444",
+}
+
+"#contentMain[platform=android]": {
+   top: "0",    
+}
