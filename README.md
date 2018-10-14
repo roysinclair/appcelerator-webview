@@ -1,7 +1,7 @@
 # Appcelerator loading a website
 
 Demo project allowing both Android and iOS to load a website.
-Android pressing the back button on the device will go back to teh last web page
+Android pressing the back button on the device will go back to the last web page
 iOS has a back button and reload button at the bottom of the webview
 
 ## Getting Started
